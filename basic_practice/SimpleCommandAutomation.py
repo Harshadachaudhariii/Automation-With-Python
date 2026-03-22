@@ -1,5 +1,6 @@
 command= input("Enter a command: (start/stop/restart) ")
 
+match command.lower():
     case "start":
         print("System Starting.....")
     case "stop":
