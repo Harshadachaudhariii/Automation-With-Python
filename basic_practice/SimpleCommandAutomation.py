@@ -1,6 +1,5 @@
 command= input("Enter a command: (start/stop/restart) ")
 
-match command:
     case "start":
         print("System Starting.....")
     case "stop":
@@ -9,3 +8,4 @@ match command:
         print("System Restarting.....")
     case _ :
         print("Unknown Command")
+    
